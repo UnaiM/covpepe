@@ -1,0 +1,8 @@
+#! /bin/sh
+
+# https://stackoverflow.com/a/29835459/5200147
+dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+
+. "$dir/../venv/bin/activate"
+
+python ../src/pasvtete.py "$@"

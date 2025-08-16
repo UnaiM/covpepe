@@ -5,4 +5,4 @@ dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 
 . "$dir/../venv/bin/activate"
 
-python ../src/covpepe.py "$@"
+python "$dir/../src/covpepe.py" "$@"

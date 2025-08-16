@@ -27,6 +27,11 @@ Simply open this repo’s `install` folder, and run the appropriate executable f
 `*_uninst` will undo the above.
 
 
+### No love for MacOS?
+
+No. :kissing_heart:
+
+
 Usage
 -----
 
